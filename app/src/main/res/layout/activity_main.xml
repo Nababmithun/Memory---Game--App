@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#4E1D57"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/image"
+        android:layout_width="wrap_content"
+        android:layout_height="390dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+
+
+        <TextView
+
+
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:scaleX="1.7"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif"
+            android:text="Player  1 :  00"
+            android:textColor="#FFF4F1F3"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="11sp"
+            android:id="@+id/tv_p1" />
+
+
+
+
+        <TextView
+            android:layout_marginLeft="11dp"
+            android:layout_marginTop="20dp"
+            android:scaleX="1.7"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif"
+            android:text="Player  2  :  00"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#FFF4F1F3"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+
+            android:id="@+id/tv_p2" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

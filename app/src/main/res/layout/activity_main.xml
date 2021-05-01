@@ -28,26 +28,23 @@
         <TextView
 
 
-            android:scaleX="1.7"
             android:textSize="20dp"
-            android:text="P:1 >  00"
+            android:text="P:1 >00"
             android:textAppearance="?android:textAppearanceLarge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginLeft="11sp"
             android:id="@+id/tv_p1" />
 
 
 
 
         <TextView
-            android:layout_marginLeft="100dp"
-            android:scaleX="1.7"
+            android:layout_marginLeft="80dp"
             android:textSize="20sp"
-            android:text="P:2 >  00"
+            android:text="P:2 >00"
             android:layout_width="wrap_content"
             android:textAppearance="?android:textAppearanceLarge"
             android:layout_height="wrap_content"

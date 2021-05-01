@@ -476,11 +476,11 @@ public class MainActivity extends AppCompatActivity {
 
             if (turn == 1){
 
-                playerPoints=playerPoints+0;
+                playerPoints=playerPoints+500000;
                 tv_p1.setText("p1:"+playerPoints);
 
             }else  if (turn == 2){
-                cpupoints=cpupoints+0;
+                cpupoints=cpupoints+500000;
                 tv_p2.setText("p2:"+cpupoints);
             }
 

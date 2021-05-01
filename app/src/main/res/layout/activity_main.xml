@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#4E1D57"
+    android:background="@color/white"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -16,26 +16,23 @@
 
 
     <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="100dp">
+        android:layout_height="wrap_content">
 
 
 
         <TextView
 
 
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:layout_marginTop="10dp"
             android:scaleX="1.7"
-            android:textSize="22sp"
-            android:fontFamily="sans-serif"
-            android:text="Player  1 :  00"
-            android:textColor="#FFF4F1F3"
+            android:textSize="20dp"
+            android:text="P:1 >  00"
             android:textAppearance="?android:textAppearanceLarge"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
@@ -47,16 +44,11 @@
 
 
         <TextView
-            android:layout_marginLeft="11dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp"
             android:scaleX="1.7"
-            android:textSize="22sp"
-            android:fontFamily="sans-serif"
-            android:text="Player  2  :  00"
-            android:layout_width="match_parent"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:textColor="#FFF4F1F3"
+            android:textSize="20sp"
+            android:text="P:2 >  00"
+            android:layout_width="wrap_content"
             android:textAppearance="?android:textAppearanceLarge"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/textView"
